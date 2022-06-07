@@ -19,7 +19,7 @@ export class EstudantesComponent implements OnInit {
     sobrenome:'Geballi',
     idade: 18,
     CPF: '8876643329',
-    telefone:'11989802317'    
+    telefone:'11983949074'    
   }
 
   selectedEstudante?: Estudante;
