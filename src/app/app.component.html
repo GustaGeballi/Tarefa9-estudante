@@ -1,5 +1,12 @@
 <h1>{{title}}</h1>
-<hr color = "#d2edff">
-<app-estudantes></app-estudantes>
-<hr color = "#d2edff">
+<br>
+<nav class="container">
+    <a routerLink="./estudantes">Alunos</a> &nbsp;
+    <a routerLink="./professores">Professores</a>
+</nav>
+<br><br>
+<hr>
+<router-outlet></router-outlet>
+<br>
+<hr>
 <app-messages></app-messages>

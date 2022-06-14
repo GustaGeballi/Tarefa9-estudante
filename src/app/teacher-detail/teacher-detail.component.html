@@ -1,0 +1,23 @@
+<div *ngIf="professor" class="teacher-details">
+  
+    <div><span>ID - </span>{{professor.id}}</div>
+    <div class="details">
+      <br>
+      <label for="professor-nome">Nome: </label><br>
+      <input id="professor-nome" [(ngModel)]="professor.nome" maxlength="15" placeholder="Nome"><br>
+      
+      <label for="professor-sobrenome">Sobrenome: </label><br>
+      <input id="professor-sobrenome" [(ngModel)]="professor.sobrenome" maxlength="40" placeholder="Sobrenome"><br>
+      
+      <label for="professor-idade">Idade: </label><br>
+      <input id="professor-idade" [(ngModel)]="professor.idade" maxlength="3"placeholder="Idade"><br>
+      
+      <label for="professor-cpf">CPF: </label><br>
+      <input id="professor-cpf" [(ngModel)]="professor.CPF" maxlength="14" placeholder="CPF"><br>
+      
+      <label for="professor-telefone">Telefone: </label><br>
+      <input id="professor-telefone" [(ngModel)]="professor.telefone" maxlength="15" placeholder="Telefone"><br>
+    
+    </div>
+
+  </div>
